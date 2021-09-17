@@ -3,10 +3,11 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <StartupObject>SeleniumProject1.CSSselectorDemo</StartupObject>
+    <StartupObject>Selenium_Project1.LaunchChrome</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Selenium.Support" Version="3.141.0" />
     <PackageReference Include="Selenium.WebDriver" Version="3.141.0" />
   </ItemGroup>
 
