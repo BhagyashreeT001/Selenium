@@ -16,7 +16,7 @@ namespace SeleniumProject1
             Console.WriteLine("Hello World");
 
             //Launch Chrome
-            IWebDriver driver = new ChromeDriver("C:\\Users\\HP\\Desktop\\c# notes\\selenium\\chromedriver_win32");
+            IWebDriver driver = new ChromeDriver("F:\\Zensar\\selenium_session\\Selenium_Webdriver");
             //Maximize the Browser
             driver.Manage().Window.Maximize();
             //Launch Url
